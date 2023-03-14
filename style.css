@@ -1,6 +1,6 @@
 
 *{
-    background-color: black;
+    background-color: #120f12;
     color: aliceblue;
     height: 150px;
 }
@@ -9,12 +9,10 @@
     align-items: center;
     justify-content: left;
 }
-nav a{
+.nav a{
     list-style: none;
-    display: inline-block;
     color: rgba(249, 249, 243, 0.932);
     text-decoration: none;
-    justify-content: space-between
 }
 .tagline1{
     width: 10px;
@@ -29,4 +27,50 @@ nav a{
 .parag{
     padding: 20px;
     text-size-adjust: 20px;
+}
+#txt{
+    background-color: rgb(253, 253, 4);
+    color: black;
+    
+}
+.para{
+    font-size: 50px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    gap: 50px;
+}
+.parag{
+    width: 70%;
+}
+button{
+    background-color: yellow;
+    height: 40px;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+}
+.btn{
+    background-color: white;
+}
+.img{
+    padding-left: 10px;
+}
+.pa{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.pa2 img{
+    height: 500px;
+    width: auto;
+    padding-right: 30px;
+    padding-bottom: 120px;
+    
+}
+.h1n
+{
+    
 }
